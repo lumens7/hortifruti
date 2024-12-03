@@ -1,0 +1,85 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 16px;
+
+  width: 100%;
+  max-width: 700px;
+}
+
+main h1{
+  font-size: 4rem;
+  line-height: 1.1;
+}
+main p{
+  font-size: 1.5rem;
+  color: #fff;
+}
+main .roleta{
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin-top: 32px;
+}
+
+.roleta .button_hort{
+  border: none;
+  background: transparent;
+  transition: all .4s;
+}
+.roleta .button_hort img{
+  width: 120px;
+  height: auto;
+}
+main .roleta:hover .button_hort:not(:hover){
+  opacity: 0.6;
+  filter: grayscale(0.3);
+}
+main .roleta:hover .button_hort:hover{
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+@media (max-width: 768px) {
+  main {
+    align-items: flex-start;
+    max-width: 100%; 
+    color: #fff;
+  }
+
+  main h1 {
+    font-size: 3rem; 
+    color: #fff;
+    padding: .5rem;
+  }
+  
+  main p {
+    font-size: 1.5rem; 
+    text-align: start; 
+    color: #fff;
+    
+    padding: .5rem;
+    
+  }
+
+  main .roleta {
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+
+  .roleta .button_hort img {
+    width: 80px; 
+  }
+}
+  
+@media (max-width: 450px){
+  main h1{
+    font-size: 1.5rem;
+  }
+  main p{
+    font-size: 1rem;
+  }
+  .roleta .button_hort img{
+    width: 65px;
+  }
+}

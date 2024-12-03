@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORTIFRUTI LUMENS</title>
+  <link rel="icon" type="image/x-icon" href="./assets/imgs/icon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/css/global.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+      <img src="logo" alt="logo aplicação" id="logo">
+      <nav class="navbar">
+        <a href="main.html">Home</a>
+        <a href="frutas.html">Frutas</a>
+        <a href="legumes.html">Legumes</a>
+        <a href="folhas.html">Folhas</a>
+        <a href="raizes.html">Raizes</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+     
+    </header>
+
+    <main>
+        <div class="text">
+            <h1>Frescor e qualidade direto do campo para sua mesa!</h1>
+      
+            <p>
+              Venha conhecer a natureza e o que a de melhor nela a comida!
+              Dentre todos os alimentos do mundo os melhores são os naturais, frutas, verduras, legumes, raizes, folhas.
+            </p>
+            
+        </div>
+
+      <div class="roleta">
+        <button class="button_hort" type="button" onclick="changetype('frutas')">
+          <img src="logo_frutas" alt="logo_frutas" id="logo_frutas">
+        </button>
+        <button class="button_hort" type="button" onclick="changetype('legumes')">
+          <img src="logo_legumes" alt="logo_legumes" id="logo_legumes">
+        </button>
+        <button class="button_hort" type="button" onclick="changetype('folhas')">
+          <img src="logo_folhas" alt="logo_folhas" id="logo_folhas">
+        </button>
+        <button class="button_hort" type="button" onclick="changetype('raizes')">
+          <img src="logo_raizes" alt="logo_raizes" id="logo_raizes">
+        </button>
+
+      </div>
+      
+  
+
+    </main>
+    <div id="pratos" >
+      <img src="roleta" alt="roleta" id="roleta">
+    </div>
+    <span id="circle"></span>
+
+  <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/api.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+</html>

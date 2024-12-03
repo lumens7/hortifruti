@@ -1,0 +1,293 @@
+{
+    "logo": "./assets/imgs/Logo.png",
+    "roleta": "/assets/imgs/roleta.png",
+    "frutas":{
+        "details": [
+        {
+        "nome_fruta": "Morango",
+        "foto_fruta": "assets/imgs/frutas/morango.png",
+        "descricao_fruta": "É uma fruta vermelha, rasteira, originária da Europa, e que pertence ao gênero Fragaria, da família Rosaceae. A fragaria é a espécie mais comum e cultivada em todo o mundo.",
+        "beneficios_fruta": "Ajuda a diminuir o colesterol, Controla a pressão arterial, Regula o açúcar no sangue, Mantém a saúde dos olhos.",
+        "receitas_fruta": {
+            "nome_receita": "Mousse de morango",
+            "ingredientes" : "300 g de morangos congelados, 100 g de iogurte natural, 2 colheres de sopa de mel",
+            "preparo": "Misturar todos os ingredientes no liquidificador e bater por 4 minutos. O ideal é que o mousse seja servido logo após o preparo."
+            }
+        },
+        {
+            "nome_fruta": "Maçã",
+            "foto_fruta": "assets/imgs/frutas/maca.png",
+            "descricao_fruta": "É um pseudofruto pomáceo da macieira, árvore da família Rosaceae. É um dos pseudofrutos de árvore mais cultivados, e o mais conhecido dos muitos membros do género Malus que são usados ​​pelos seres humanos. ",
+            "beneficios_fruta": "Saúde digestiva, Controle de peso, Prevenção de doenças crônicas, Saúde bucal.",
+            "receitas_fruta": {
+                "nome_receita": "Brownie de maçã",
+                "ingredientes" : "1 maçã, 1 ovo, 4 colher de sopa de cacal em pó 100%, 1/2 colher de fermento",
+                "preparo": "Descasque e pique as maçãs. Coloque todos os ingredientes no processador e bata até obter uma massa homogênea. Unte um refratário com óleo de coco ou manteiga, coloque a massa e leve ao micro-ondas por 2 minutos e 30 segundos em potência alta."
+            }
+        },
+        {
+            "nome_fruta": "Banana",
+            "foto_fruta": "assets/imgs/frutas/banana.png",
+            "descricao_fruta": "possuem um formato alongado, uma coloração amarela ou vermelha e um sabor doce. Por ser um fruto partenocárpico, a banana não possui sementes, com exceção de uma espécie vendida no mercado indonésio, a Musa balbisiana.",
+            "beneficios_fruta": "Melhora o sono, Trazer energia para o corpo e reduzir cãibras, Fortalece os ossos, diminuindo as chances de osteoporose.",
+            "receitas_fruta": {
+                "nome_receita": "Cookies de Banana",
+                "ingredientes" : "1 banana, 1 colher de sobremesa de mel, cerca de 5 colheres de sopa de aveia",
+                "preparo": "para preparar, amasse e misture a banana com os demais ingredientes. Em seguida, com ajuda de uma colher, faça pequenos montinhos em um tabuleiro untado com manteiga e leve ao forno por 15 minutos a 200°C."
+            }
+        },
+        {
+            "nome_fruta": "Melão",
+            "foto_fruta": "assets/imgs/frutas/melao.png",
+            "descricao_fruta": "É uma fruta de origem asiática e africana, produzida pela planta rasteira Cucumis melo.é uma fruta refrescante e saudável, muito consumida em estações quentes. Pode ser consumido ao natural, em sobremesas, saladas de frutas, sucos, ou em pratos salgados.",
+            "beneficios_fruta": "Fortalecimento dos ossos e dentes, Prevenção do envelhecimento precoce, Redução da retenção de líquidos.",
+            "receitas_fruta": {
+                "nome_receita": "Mousse de melão com baunilha",
+                "ingredientes" : "1 melão, 1 lata de pêssego em calda, 1/2 lata de creme de leite",
+                "preparo": "Corte o melão ao meio e, com um boleador, faça bolinhas, retirando o máximo de polpa que conseguir. Reserve. Em um liquidificador, coloque os pêssegos, metade da calda e o Creme de Leite. Bata até obter um creme bem homogêneo. Em um recipiente grande, coloque as bolinhas de melão e o creme por cima. Sirva gelado."
+            }
+        },
+        {
+            "nome_fruta": "Pera",
+            "foto_fruta": "assets/imgs/frutas/pera.png",
+            "descricao_fruta": " É o fruto da pereira, uma árvore da família Rosaceae, tem origem da Asia, e pode ter casca amarela, verde ou vermelha. A polpa pode ser macia, dura ou granulosa, e a consistência pode variar entre macia e cremosa ou dura e granulosa. ",
+            "beneficios_fruta": "Reduz o risco de doenças cardíacas, Estimula a circulação. Por conta do acido málico ela ajuda na digestão.",
+            "receitas_fruta": {
+                "nome_receita": "Pera Assada",
+                "ingredientes" : "1 pera, 2 colheres (sopa) de mel, canela a gosto, suco de 1/2 limão siciliano",
+                "preparo": "Em um recipiente, coloque o mel, o suco de limão e misture bem. Retire o cabo da pera, lave bem, corte ao meio e passe na mistura de mel. Coloque em uma forma, despeje o molho por cima, salpique canela e asse por 25 minutos. Sirva com iogurte natural ou com uma bola de sorvete."
+            }
+        },
+        {
+            "nome_fruta": "Pitaya",
+            "foto_fruta": "assets/imgs/frutas/pitaya.png",
+            "descricao_fruta": "Também conhecida como fruta do dragão, é um fruto tropical e subtropical com uma aparência peculiar e um sabor doce e refrescante. Sua origem é da America Central. É um fruto da família dos catos, produzido por diferentes tipos de cactos dos gêneros Hylocereus e Selenicereus.",
+            "beneficios_fruta": "Ajuda a combater o envelhecimento, Previne a anemia, reduz o colesterol, o LDL e os triacilgliceróis, e eleva o HDL. ",
+            "receitas_fruta": {
+                "nome_receita": "Creme de Pitaya",
+                "ingredientes" : "1 pitaya, 1 banana congelada cortada em rodelas, 1 colher de sopa farinha de linhaça ou de aveia, 5 pedras de gelo",
+                "preparo": "Bata no liquidificador a pitaya e a banana congelada. Depois, acrescente a farinha de linhaça e as pedras de gelo. Bata muito bem, até o gelo ficar todo triturado.Sirva na hora, com um pouco de granola, ou outras frutas, castanhas, coco ralado."
+            }
+        }
+    ],
+    "logo_frutas": "/assets/imgs/bowl/frutas.png"
+    }
+    ,
+    "legumes": { 
+        "details": [
+        {
+            "nome_legume": "Abobora",
+            "foto_legume": "assets/imgs/legumes/abobora.png",
+            "descricao_legume": "É considerada um fruto em termos botânicos e cresce a partir de uma planta rasteira da família das cucurbitáceas, a mesma da melancia, do melão, do chuchu e do pepino. A forma da abóbora é variável, mas geralmente é ovoide ou oblonga.",
+            "beneficios_legume": "A abóbora é rica em carotenóides, que são compostos antioxidantes que ajudam a combater vírus, bactérias e fungos. A vitamina A, derivada do beta-caroteno, também é importante para a imunidade, pois ajuda a fortalecer o revestimento intestinal",
+            "receitas_legume": {
+                "nome_receita": "Purê de Abóbora",
+                "ingredientes" : "500 g de abóbora descascada e cortada em cubos, 1 colher de sopa de manteiga, Sal e pimenta a gosto, 1 pitada de noz-moscada.",
+                "preparo": "Cozinhe os cubos de abóbora em água com uma pitada de sal até ficarem macios (cerca de 15 minutos).Escorra bem a água e amasse a abóbora com um garfo ou espremedor. Misture a manteiga até incorporar bem. Tempere com sal, pimenta e noz-moscada, se desejar. Sirva como acompanhamento de carnes ou saladas."
+            }
+        },
+        {
+            "nome_legume": "Cebola",
+            "foto_legume": "assets/imgs/legumes/cebola.png",
+            "descricao_legume": "É uma das hortaliças mais importantes e mais difundidas no mundo. Os primeiros registros de seu cultivo datam de cerca de 4.000 anos e foram encontrados no Egito.",
+            "beneficios_legume": " A cebola contém vitamina C e antioxidantes, o que ajuda a combater infecções e doenças como gripes e resfriados.",
+            "receitas_legume": {
+                "nome_receita": "Cebola Caramelizada",
+                "ingredientes" : "4 cebolas grandes cortadas em rodelas finas, 2 colheres de sopa de manteiga, 1 colher de sopa de açúcar, 1 pitada de sal, 2 colheres de sopa de água.",
+                "preparo": "Em uma frigideira grande, aqueça a manteiga ou o azeite em fogo médio. Adicione as cebolas e uma pitada de sal, mexendo ocasionalmente. Cozinhe por cerca de 20 a 30 minutos até que as cebolas fiquem douradas e macias. Se necessário, adicione pequenas quantidades de água para evitar que grudem no fundo. Para um toque adocicado, adicione o açúcar nos últimos minutos de cozimento e mexa bem."
+            }
+        },
+        {
+            "nome_legume": "Alho",
+            "foto_legume": "assets/imgs/legumes/alho.png",
+            "descricao_legume": "Pertencente à família Alliaceae, é uma planta herbácea, com folhas lanceoladas (alongadas), estreitas e cerosas, podendo atingir até 60 cm de altura, dependendo da cultivar. As bainhas das folhas formam um pseudocaule curto, em cuja parte inferior origina-se o bulbo.",
+            "beneficios_legume": "Diminui o colesterol, regular a pressão sanguínea, combater fungos e bactérias no organismo e proteger o coração",
+            "receitas_legume": {
+                "nome_receita": "Alho Assado",
+                "ingredientes" : "1 cabeça de alho inteira, 1 colher de sopa de azeite, Sal e pimenta a gosto.",
+                "preparo": "Preaqueça o forno a 180°C. Corte o topo da cabeça de alho para expor os dentes. Regue com azeite, tempere com sal e pimenta, e embrulhe em papel-alumínio. Asse por 30 a 40 minutos, até que os dentes fiquem macios e dourados. Aperte os dentes para retirar a polpa e use como pasta em torradas, massas ou carnes."
+            }
+        },
+        {
+            "nome_legume": "Berinjela",
+            "foto_legume": "assets/imgs/legumes/beringela.png",
+            "descricao_legume": "É uma planta da família Solanaceae, originária da Índia e introduzida no Brasil no século XVI. A planta apresenta porte arbustivo, caule semilenhoso, podendo alcançar até um metro de altura, com folhas alternas, ovadas, angulosas e de cor esbranquiçada, sendo pilosa na epiderme inferior.",
+            "beneficios_legume": "A berinjela ajuda a reduzir o colesterol ruim (LDL), a diminuir a pressão sanguínea e a combater os efeitos gordurosos dos alimentos no sangue. O potássio presente na berinjela também protege o coração e favorece a livre circulação sanguínea.",
+            "receitas_legume": {
+                "nome_receita": "Berinjela Grelhada",
+                "ingredientes" : "1 berinjela média, 2 colheres de sopa de azeite, Sal e pimenta a gosto, ervas frescas a gosto.",
+                "preparo": "Corte a berinjela em rodelas ou tiras médias. Salpique sal e deixe descansar por 10 minutos para retirar o amargor. Enxágue e seque com papel-toalha. Pincele com azeite e tempere com sal e pimenta. Aqueça uma frigideira ou grelha em fogo médio e grelhe as fatias de berinjela por 2-3 minutos de cada lado, até ficarem macias e douradas. Finalize com ervas frescas."
+            }
+        },
+        {
+            "nome_legume": "Tomate",
+            "foto_legume": "assets/imgs/legumes/tomate.png",
+            "descricao_legume": "É um fruto de cor vermelha ou amarela, com sabor levemente ácido, é de origem da America do Sul.",
+            "beneficios_legume": "Protege o coração, Protege a pele, Previne o câncer, Ajuda na visão, ",
+            "receitas_legume": {
+                "nome_receita": "Tomate seco com alho laminado e manjericão",
+                "ingredientes" : "4 fatias de pão, 2 tomates maduros picados em cubos, 1 dente de alho, Manjericão Azeite Sal e pimenta a gosto.",
+                "preparo" : "Torre levemente as fatias de pão no forno ou em uma frigideira. Esfregue o dente de alho nas fatias de pão para dar sabor. Misture os tomates picados com manjericão, azeite, sal e pimenta. Distribua a mistura de tomate sobre as fatias de pão. Regue com um fio de azeite e sirva imediatamente."
+            }
+        },
+        {
+            "nome_legume": "Ervilha",
+            "foto_legume": "assets/imgs/legumes/ervilha.png",
+            "descricao_legume": "São uma leguminosa herbácea de rápido crescimento que produz vagens deiscentes que contêm várias sementes globulares ou angulares, lisas ou rugosas, dependendo da variedade.",
+            "beneficios_legume": "A ervilha é uma boa fonte de proteína vegetal, com um teor de até 8% do valor de referência para uma dieta de 2 mil calorias. É uma boa opção para quem não come carne.",
+            "receitas_legume": {
+                "nome_receita": "Sopa de Ervilha",
+                "ingredientes" : "2 xícaras de ervilha, 2 xícaras de água, 1 colher de sopa de azeite, Sal, pimenta e salsinha a gosto",
+                "preparo": "Em uma panela, aqueça o azeite, Adicione as ervilhas e refogue por 2 minutos. Acrescente a água ou caldo de legumes e deixe ferver por 5 a 7 minutos, até as ervilhas ficarem macias. Bata tudo no liquidificador ou com um mixer até obter uma textura cremosa. Tempere com sal e pimenta, e sirva quente com salsinha picada, se desejar."
+            }
+        }
+
+    ],
+    "logo_legumes": "/assets/imgs/bowl/legumes.png"
+    },
+    "folhas":{
+        "details": [
+        {
+            "nome_folhas": "Alface",
+            "foto_folhas": "assets/imgs/folhas/alface.png",
+            "descricao_folhas": "É uma hortaliça anual ou bienal, originária do leste do Mediterrâneo. Possui baixo teor calórico, já que cada 100 g dela contém somente 15 calorias.",
+            "beneficios_folhas": "O seu consumo auxilia no funcionamento da visão, no processo de cicatrização, no combate de infecções, além de fortalecer ossos e dentes. Também funciona como calmante, combate a insônia e tem efeito diurético e laxante",
+            "receitas_folhas": {
+                "nome_receita": "Salada Crocante de Alface",
+                "ingredientes" : "1 pé de alface, 1/2 cebola roxa em fatias finas, 1 colher de sopa de azeite, Suco de 1/2 limão, Sal e pimenta a gosto",
+                "preparo": "Rasgue as folhas de alface em pedaços médios e coloque em uma tigela. Adicione a cenoura ralada e a cebola fatiada. Tempere com azeite, suco de limão, sal e pimenta. Misture bem e sirva imediatamente como acompanhamento."
+            }
+        },
+        {
+            "nome_folhas": "Repolho",
+            "foto_folhas": "assets/imgs/folhas/repolho.png",
+            "descricao_folhas": "É uma hortaliça da família Brassicaceae, originária do Mediterrâneo. O repolho é rico em vitaminas, fibras, folato e antioxidantes",
+            "beneficios_folhas": "Os diversos componentes antioxidantes encontrados no repolho são os principais responsáveis ​​pelo seu efeito anti-inflamatório. Além disso, esse vegetal melhora a digestão, graças às fibras solúveis. Elas também são responsáveis por reduzir os níveis de colesterol ruim.",
+            "receitas_folhas": {
+                "nome_receita": "Refogado de Repolho",
+                "ingredientes" : "1/2 repolho fatiado finamente, 2 colheres de sopa de azeite ou óleo, 1 dente de alho picado, Sal e pimenta a gosto.",
+                "preparo": "Aqueça o azeite em uma frigideira ou panela grande. Adicione o alho picado e refogue até dourar levemente. Acrescente o repolho fatiado e refogue por 5 a 7 minutos, mexendo ocasionalmente, até murchar e ficar macio. Tempere com sal e pimenta a gosto e sirva quente como acompanhamento."
+            }
+        },
+        {
+            "nome_folhas": "Couve-flor",
+            "foto_folhas": "assets/imgs/folhas/couve_flor.png",
+            "descricao_folhas": "É uma hortaliça de fácil digestão, cujo consumo é indicado para pessoas de todas as idades. O preparo básico consiste na remoção das folhas e das partes muito grossas e duras do caule, seguida pelo cozimento, na forma picada ou inteira.",
+            "beneficios_folhas": "A couve-flor conta com diversos nutrientes dignos de um prato principal. Como ela é rica em antioxidantes (moléculas capazes de proteger as células contra radicais livres), seu consumo ajuda na redução de inflamações e melhora a imunidade.",
+            "receitas_folhas": {
+                "nome_receita": "Couve-Flor Assada",
+                "ingredientes" : "1 couve-flor, 2 colheres de sopa de azeite, 1 colher de chá de páprica, Sal e pimenta a gosto.",
+                "preparo": "Preaqueça o forno a 200°C. Lave a couve-flor e corte em floretes médios. Em uma tigela, misture os floretes com azeite, páprica, sal e pimenta. Espalhe os floretes em uma assadeira, evitando sobreposição. Asse por 25 a 30 minutos, mexendo na metade do tempo, até dourar e ficar macia. Sirva como acompanhamento ou petisco."
+            }
+        },
+        {
+            "nome_folhas": "Brocolis",
+            "foto_folhas": "assets/imgs/folhas/brocolis.png",
+            "descricao_folhas": "É uma variedade de Brassica oleracea e é uma planta herbácea, de caule longo e ereto, com folhas de nervuras pouco salientes e pedúnculos compridos.",
+            "beneficios_folhas": "É uma ótima fonte das vitaminas A, C, E e K, além de ter ferro, potássio, cálcio e fósforo na sua composição. As funções cognitivas e cerebrais são beneficiadas pela vitamina K, ácido fólico e magnésio, logo, o raciocínio melhora, assim como a concentração.",
+            "receitas_folhas": {
+                "nome_receita": "Brócolis no Vapor com Alho e Limão",
+                "ingredientes" : "1 maço de brócolis, 2 dentes de alho picados, 2 colheres de sopa de azeite, Suco de 1/2 limão, sal e pimenta a gosto.",
+                "preparo": "Cozinhe os brócolis no vapor por 5 a 7 minutos, até ficarem macios. Em uma frigideira, aqueça o azeite e doure o alho. Adicione o brócolis cozido à frigideira e misture bem. Tempere com sal, pimenta e finalize com o suco de limão. Sirva como acompanhamento."
+            }
+        },
+        {
+            "nome_folhas": "Couve",
+            "foto_folhas": "assets/imgs/folhas/couve.png",
+            "descricao_folhas": "É uma hortaliça da família Brassicaceae: a mesma da mostarda e do nabo. É rica em fibras, iodo, cálcio, potássio, enxofre, magnésio e ômega 3; além de vitaminas A, B1, B2, B6, C e K.",
+            "beneficios_folhas": "regula o intestino e melhora a saúde da flora intestinal, pois contém fibras, que ajudam na eliminação das fezes e também servem de alimento para as bactérias benéficas do intestino.",
+            "receitas_folhas": {
+                "nome_receita": "Couve Refogada",
+                "ingredientes" : "1 maço de couve, 2 dentes de alho picados, 2 colheres de sopa de azeite ou óleo, Sal a gosto.",
+                "preparo": "Aqueça o azeite em uma frigideira grande. Adicione o alho picado e refogue até dourar levemente. Acrescente a couve e mexa bem para incorporar o tempero. Cozinhe por 3 a 5 minutos, mexendo ocasionalmente, até murchar. Tempere com sal a gosto e sirva como acompanhamento."
+            }
+        },
+        {
+            "nome_folhas": "Alho-poró",
+            "foto_folhas": "assets/imgs/folhas/alho_poro.png",
+            "descricao_folhas": "Da família das aliáceas, a mesma do alho, da cebola e da cebolinha, o legume tem sabor suave e adocicado, por isso, forma a base de tempero para tantas receitas.",
+            "beneficios_folhas": "Ajuda a manter o bom funcionamento do aparelho digestivo. A hortaliça possui ainda inulina, um composto prebiótico, ou seja, serve de alimento para as bactérias boas no intestino, ajudando-as a se reproduzirem e contribuindo para a saúde da flora intestinal.",
+            "receitas_folhas": {
+                "nome_receita": "Alho-Poró Refogado",
+                "ingredientes" : "2 talos de alho-poró, 2 colheres de sopa de azeite ou manteiga, Sal e pimenta a gosto",
+                "preparo": "Aqueça o azeite ou a manteiga em uma frigideira em fogo médio. Adicione o alho-poró e refogue por 5 a 7 minutos, mexendo ocasionalmente, até ficar macio e levemente dourado. Tempere com sal e pimenta a gosto. Sirva como acompanhamento para carnes, peixes ou saladas."
+            }
+        }
+
+    ],
+    "logo_folhas": "/assets/imgs/bowl/folhas.png"
+    },
+    "raizes":{
+        "details":[
+        {
+            "nome_raizes": "Batata",
+            "foto_raizes": "assets/imgs/raizes/batata.png",
+            "descricao_raizes": "É um tubérculo pertencente à família das Solanaceae. Surgiu nos Andes e nas Ilhas Chilenas, foi levada para a Europa no século XVI e tornou-se base da alimentação, além de ser um dos vegetais mais utilizados nas Américas do Norte e do Sul, principalmente por grandes redes de fast food.",
+            "beneficios_raizes": "Tem ótimas quantidades de amido resistente, um tipo de carboidrato que não é absorvido pelo organismo e que atua como fibra, servindo de alimento para as bactérias benéficas do intestino, ajudando na prevenção de situações como infecção intestinal, diarreia ou prisão de ventre.",
+            "receitas_raizes": {
+                "nome_receita": "Batata Assada Crocante",
+                "ingredientes" : "4 batatas médias, 2 colheres de sopa de azeite, 1 colher de chá de sal 1/2 colher de chá de pimenta-do-reino, 1 colher de chá de páprica.",
+                "preparo": "Preaqueça o forno a 200°C. Lave bem as batatas e corte em cubos ou fatias. Em uma tigela, misture as batatas com azeite, sal, pimenta e páprica. Distribua em uma assadeira, evitando sobreposição, para que fiquem crocantes. Asse por 30 a 40 minutos, mexendo na metade do tempo, até dourarem e ficarem crocantes. Sirva com acompanhamento."
+            }
+        },
+        {
+            "nome_raizes": "Cenoura",
+            "foto_raizes": "assets/imgs/raizes/cenoura.png",
+            "descricao_raizes": "É uma raiz rica em vitamina A, além de conter sais minerais como fósforo, cloro, potássio, cálcio, sódio; carboidratos, vitaminas do complexo B e betacaroteno, substância que lhe confere a cor laranja-avermelhada.",
+            "beneficios_raizes": "As vitaminas C e A encontradas na cenoura são potentes antioxidantes que protegem as células dos danos provocados pelos radicais livres, diminuindo o risco de doenças cardiovasculares e alguns tipos de câncer.",
+            "receitas_raizes": {
+                "nome_receita": "Cenoura Ralada com Limão",
+                "ingredientes" : "2 cenouras médias, Suco de 1/2 limão, 1 colher de sopa de azeite, Sal e pimenta a gosto.",
+                "preparo": "Lave, descasque e rale as cenouras no ralador grosso. Em uma tigela, misture a cenoura ralada com o suco de limão e o azeite. Tempere com sal e pimenta a gosto. Sirva como acompanhamento ou salada leve."
+            }
+        },
+        {
+            "nome_raizes": "Batata-doce",
+            "foto_raizes": "assets/imgs/raizes/batata_doce.png",
+            "descricao_raizes": "É uma raiz tuberosa, planta da família das convolvuláceas. É encontrada em diversas variedades, nas cores externas amarela, branca e roxa. Pode ser classificada de acordo com o tamanho, formato, cor interna, dulçor, precocidade e cor das folhas.",
+            "beneficios_raizes": "A batata-doce, principalmente a alaranjada, é uma ótima fonte de betacarotenos. Contém também vitamina C, um antioxidante que protege as células do corpo contra as informações e os radicais livres.",
+            "receitas_raizes": {
+                "nome_receita": "Purê de Batata-Doce",
+                "ingredientes" : "2 batatas-doces médias, 1 colher de sopa de manteiga, 1/4 de xícara de leite, Sal a gosto.",
+                "preparo": "Lave, descasque e corte as batatas-doces em pedaços médios. Cozinhe em água fervente com uma pitada de sal até ficarem macias (cerca de 15 minutos). Escorra a água e amasse as batatas com um garfo ou espremedor. Adicione a manteiga e o leite, misturando até obter uma consistência cremosa. Ajuste o sal a gosto e sirva como acompanhamento."
+            }
+        },
+        {
+            "nome_raizes": "Mandioca",
+            "foto_raizes": "assets/imgs/raizes/mandioca.png",
+            "descricao_raizes": "É uma raiz, seu nome científico é Manihot esculenta Crantz. A parte leguminosa se desenvolve debaixo da terra, por isso ela é considerada um tubérculo. Seu caule e folhas podem atingir até cinco metros de altura.",
+            "beneficios_raizes": "Mandioca ajuda na redução do colesterol, na prevenção da hipertensão, de doenças cardíacas, ajuda a evitar a anemia, contribui para a perda de peso, melhora a saúde do intestino, faz bem para a visão e fortalece o sistema imunológico.",
+            "receitas_raizes": {
+                "nome_receita": "Mandioca Cozida com Manteiga",
+                "ingredientes" : "500 g de mandioca, Água suficiente para cobrir, Sal a gosto, 1 colher de sopa de manteiga ou azeite.",
+                "preparo": "Descasque a mandioca e corte em pedaços médios. Coloque os pedaços em uma panela, cubra com água e adicione uma pitada de sal. Cozinhe em fogo médio por 20 a 30 minutos, ou até que a mandioca esteja macia e fácil de espetar com um garfo. Escorra a água e transfira a mandioca para um prato. Adicione a manteiga por cima ainda quente, misturando para derreter."
+            }
+        },
+        {
+            "nome_raizes": "Beterraba",
+            "foto_raizes": "assets/imgs/raizes/beterraba.png",
+            "descricao_raizes": "É uma hortaliça tuberosa, originária da Europa, da família Quenopodiácea, assim como a acelga e o espinafre verdadeiro. Apesar de comumente qualificada de raiz, ela é resultante do engrossamento de uma porção do caule.",
+            "beneficios_raizes": "A beterraba ajuda a diminuir a pressão arterial por conter nitratos, componentes que são transformados em óxido nítrico no organismo, uma substância que ajuda a relaxar os vasos sanguíneos, melhorando a circulação de sangue.",
+            "receitas_raizes": {
+                "nome_receita": "Salada de Beterraba",
+                "ingredientes" : "2 beterrabas médias, 1 colher de sopa de azeite, Suco de 1/2 limão, Sal e pimenta a gosto.",
+                "preparo": "Lave bem as beterrabas e cozinhe em água fervente até ficarem macias (cerca de 30 a 40 minutos). Deixe esfriar, descasque e corte em rodelas ou cubos. Tempere com azeite, suco de limão, sal e pimenta. Misture bem e sirva como acompanhamento."
+            }
+        },
+        {
+            "nome_raizes": "Inhame",
+            "foto_raizes": "assets/imgs/raizes/inhame.png",
+            "descricao_raizes": "É um tubérculo nutritivo e versátil, com origem na África e cultivado em várias partes do mundo por se tratar de um alimento energético e de alto valor nutritivo",
+            "beneficios_raizes": "Possui proteínas capazes de estimular o sistema imunológico. É rico em vitaminas do complexo B, importante auxiliar na absorção do carboidrato. Auxilia na diminuição da incidência de câimbras por ser rico em minerais como potássio, magnésio e cálcio, que participam da contração e relaxamento do músculo.",
+            "receitas_raizes": {
+                "nome_receita": "Inhame Cozido com Azeite e Ervas",
+                "ingredientes" : "4 inhames, Água suficiente para cozinhar, 1 colher de sopa de azeite, Sal a gosto, Ervas frescas ou secas.",
+                "preparo": "Descasque o inhame e corte em pedaços médios. Coloque em uma panela, cubra com água e adicione uma pitada de sal. Cozinhe em fogo médio por 20 a 25 minutos, até o inhame ficar macio. Escorra a água, transfira para um prato e regue com azeite. Polvilhe as ervas por cima e sirva quente como acompanhamento."
+            }
+        }
+
+    ],
+    "logo_raizes": "/assets/imgs/bowl/raizes.png"
+    }
+
+}

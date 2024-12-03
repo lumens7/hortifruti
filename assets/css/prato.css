@@ -1,0 +1,69 @@
+#pratos {
+    /* background-image: url('/assets/roleta.png'); */
+    position: fixed;
+    bottom: -1105px;
+    right: -1110px;
+  
+    z-index: -1;
+  }
+  
+#pratos img {
+    width: 2200px;
+    height: auto;
+  
+    transition: all 1.25s;
+    transform: rotate(2deg);
+}
+#pratos.frutas img{
+    transform: rotate(2deg);
+}
+#pratos.legumes img{
+    transform: rotate(-90deg);
+}
+#pratos.folhas img{
+    transform: rotate(-179.5deg);
+}
+#pratos.raizes img{
+    transform: rotate(-269.5deg);
+}
+#circle{
+    position: fixed;
+    bottom: -540px;
+    right: -540px;
+
+    z-index: -2;
+
+    width: 1160px;
+    height: 1160px;
+    border-radius: 100%;
+    background-color: var(--frutas-circle);
+    transition: all 1.2s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 768px){
+    #pratos{
+        bottom: -560px;
+        right: -560px;
+    }
+    #pratos img{
+        width: 1100px;
+    }
+    #circle{
+        bottom: -760px;
+        right: -760px;
+    }
+}
+@media (max-width: 450px){
+    #pratos{
+        bottom: -450px;
+        right: -450px;
+    }
+    #pratos img{
+        width: 900px;
+    }
+    #circle{
+        bottom: -800px;
+        right: -800px;
+    }
+}

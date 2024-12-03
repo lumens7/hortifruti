@@ -1,0 +1,47 @@
+@import url('header.css');
+@import url('main.css');
+@import url('prato.css');
+@import url('mobile.css');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+
+:root {
+  --text: #000;
+
+
+  --frutas-circle: #ccbcf8;
+  --frutas-background: #613dc1;
+
+  --folhas-circle: #ECFFCC;
+  --folhas-background: #008000;
+
+  --raizes-circle: #f1b29be0;
+  --raizes-background: #a83b19;
+
+  --legumes-circle: #f5ba8a;
+  --legumes-background: #e25813;
+}
+
+body, button, a {
+  color: var(--text);
+  font: 400 1rem "Open Sans", sans-serif;
+}
+
+
+body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  padding: 64px 120px 0;
+  background-color: var(--frutas-background);
+  transition: all .6s;
+   padding: 2.5rem;   
+}

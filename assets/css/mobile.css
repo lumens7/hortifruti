@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 1rem;
+        overflow: scroll;
+        max-height: 200vh;
+        color: #fff;
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    h2, h3{
+        font-size: 1.5rem;
+    }
+    p{
+        color: #fff;
+        font-size: 1rem;
+    }
+    .descricao{
+        color: #fff;
+    }
+    #preparo{
+        padding-bottom: 2rem;
+    }
+    .tipo img{
+        max-width: 12em;
+        height: 10em;
+    }
+}
+@media (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2, h3{
+        font-size: 1rem;
+    }
+    p{
+        color: #fff;
+        font-size: .8rem;
+    }
+}
