@@ -121,7 +121,7 @@ p{
     .descricao{
         font-size: 1rem;
     }
-    #centro{
+    main #centro{
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -143,7 +143,7 @@ p{
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
-    #centro{
+    main #centro{
         max-width: 200px; 
     }
     .descricao{
