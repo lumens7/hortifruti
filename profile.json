@@ -1,11 +1,11 @@
 {
-    "logo": "./assets/imgs/Logo.png",
-    "roleta": "/assets/imgs/roleta.png",
+    "logo": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/Logo.png",
+    "roleta": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/roleta.png",
     "frutas":{
         "details": [
         {
         "nome_fruta": "Morango",
-        "foto_fruta": "assets/imgs/frutas/morango.png",
+        "foto_fruta": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/frutas/morango.png",
         "descricao_fruta": "É uma fruta vermelha, rasteira, originária da Europa, e que pertence ao gênero Fragaria, da família Rosaceae. A fragaria é a espécie mais comum e cultivada em todo o mundo.",
         "beneficios_fruta": "Os morangos são ricos em antioxidantes, como antocianinas e ácido elágico, que ajudam a combater o envelhecimento da pele e a prevenir doenças cardiovasculares",
         "receitas_fruta": {
@@ -16,7 +16,7 @@
         },
         {
             "nome_fruta": "Maçã",
-            "foto_fruta": "assets/imgs/frutas/maca.png",
+            "foto_fruta": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/frutas/maca.png",
             "descricao_fruta": "É um pseudofruto pomáceo da macieira, árvore da família Rosaceae. É um dos pseudofrutos de árvore mais cultivados, e o mais conhecido dos muitos membros do género Malus que são usados ​​pelos seres humanos. ",
             "beneficios_fruta": "O ácido málico presente na maçã aumenta a produção da saliva, diminuindo a proliferação de bactérias que formam a placa bacteriana",
             "receitas_fruta": {
@@ -27,7 +27,7 @@
         },
         {
             "nome_fruta": "Banana",
-            "foto_fruta": "assets/imgs/frutas/banana.png",
+            "foto_fruta": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/frutas/banana.png",
             "descricao_fruta": "possuem um formato alongado, uma coloração amarela ou vermelha e um sabor doce. Por ser um fruto partenocárpico, a banana não possui sementes, com exceção de uma espécie vendida no mercado indonésio, a Musa balbisiana.",
             "beneficios_fruta": "O triptofano, um aminoácido presente na banana, ajuda na produção de serotonina, o hormônio da felicidade, o que pode ajudar nas atividades cerebrais como raciocinar, memorizar e manter a concentração.",
             "receitas_fruta": {
@@ -38,7 +38,7 @@
         },
         {
             "nome_fruta": "Melão",
-            "foto_fruta": "assets/imgs/frutas/melao.png",
+            "foto_fruta": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/frutas/melao.png",
             "descricao_fruta": "É uma fruta de origem asiática e africana, produzida pela planta rasteira Cucumis melo.é uma fruta refrescante e saudável, muito consumida em estações quentes. Pode ser consumido ao natural, em sobremesas, saladas de frutas, sucos, ou em pratos salgados.",
             "beneficios_fruta": "O melão é rico em vitaminas A, C e potássio, que ajudam a reforçar o sistema imunológico, a saúde ocular e da pele, e a controlar a pressão arterial",
             "receitas_fruta": {
@@ -49,7 +49,7 @@
         },
         {
             "nome_fruta": "Pera",
-            "foto_fruta": "assets/imgs/frutas/pera.png",
+            "foto_fruta": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/frutas/pera.png",
             "descricao_fruta": " É o fruto da pereira, uma árvore da família Rosaceae, tem origem da Asia, e pode ter casca amarela, verde ou vermelha. A polpa pode ser macia, dura ou granulosa, e a consistência pode variar entre macia e cremosa ou dura e granulosa. ",
             "beneficios_fruta": "A pera contém cobre, um mineral necessário para a formação de colágeno, que é responsável pela estrutura e reparação dos tecidos, especialmente da pele e dos músculos. ",
             "receitas_fruta": {
@@ -60,7 +60,7 @@
         },
         {
             "nome_fruta": "Pitaya",
-            "foto_fruta": "assets/imgs/frutas/pitaya.png",
+            "foto_fruta": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/frutas/pitaya.png",
             "descricao_fruta": "Também conhecida como fruta do dragão, é um fruto tropical e subtropical com uma aparência peculiar e um sabor doce e refrescante. Sua origem é da America Central. É um fruto da família dos catos, produzido por diferentes tipos de cactos dos gêneros Hylocereus e Selenicereus.",
             "beneficios_fruta": " Os antioxidantes presentes na pitaya podem ajudar a combater o envelhecimento e reduzir o risco de doenças crônicas degenerativas.",
             "receitas_fruta": {
@@ -70,14 +70,14 @@
             }
         }
     ],
-    "logo_frutas": "/assets/imgs/bowl/frutas.png"
+    "logo_frutas": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/bowl/frutas.png"
     }
     ,
     "legumes": { 
         "details": [
         {
             "nome_legume": "Abobora",
-            "foto_legume": "assets/imgs/legumes/abobora.png",
+            "foto_legume": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/legumes/abobora.png",
             "descricao_legume": "É considerada um fruto em termos botânicos e cresce a partir de uma planta rasteira da família das cucurbitáceas, a mesma da melancia, do melão, do chuchu e do pepino. A forma da abóbora é variável, mas geralmente é ovoide ou oblonga.",
             "beneficios_legume": "A abóbora é rica em carotenóides, que são compostos antioxidantes que ajudam a combater vírus, bactérias e fungos. A vitamina A, derivada do beta-caroteno, também é importante para a imunidade, pois ajuda a fortalecer o revestimento intestinal",
             "receitas_legume": {
@@ -88,7 +88,7 @@
         },
         {
             "nome_legume": "Cebola",
-            "foto_legume": "assets/imgs/legumes/cebola.png",
+            "foto_legume": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/legumes/cebola.png",
             "descricao_legume": "É uma das hortaliças mais importantes e mais difundidas no mundo. Os primeiros registros de seu cultivo datam de cerca de 4.000 anos e foram encontrados no Egito.",
             "beneficios_legume": " A cebola contém vitamina C e antioxidantes, o que ajuda a combater infecções e doenças como gripes e resfriados.",
             "receitas_legume": {
@@ -99,7 +99,7 @@
         },
         {
             "nome_legume": "Alho",
-            "foto_legume": "assets/imgs/legumes/alho.png",
+            "foto_legume": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/legumes/alho.png",
             "descricao_legume": "Pertencente à família Alliaceae, é uma planta herbácea, com folhas lanceoladas (alongadas), estreitas e cerosas, podendo atingir até 60 cm de altura, dependendo da cultivar. As bainhas das folhas formam um pseudocaule curto, em cuja parte inferior origina-se o bulbo.",
             "beneficios_legume": "Diminui o colesterol, regular a pressão sanguínea, combater fungos e bactérias no organismo e proteger o coração",
             "receitas_legume": {
@@ -110,7 +110,7 @@
         },
         {
             "nome_legume": "Berinjela",
-            "foto_legume": "assets/imgs/legumes/beringela.png",
+            "foto_legume": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/legumes/beringela.png",
             "descricao_legume": "É uma planta da família Solanaceae, originária da Índia e introduzida no Brasil no século XVI. A planta apresenta porte arbustivo, caule semilenhoso, podendo alcançar até um metro de altura, com folhas alternas, ovadas, angulosas e de cor esbranquiçada, sendo pilosa na epiderme inferior.",
             "beneficios_legume": "A berinjela ajuda a reduzir o colesterol ruim (LDL), a diminuir a pressão sanguínea e a combater os efeitos gordurosos dos alimentos no sangue. O potássio presente na berinjela também protege o coração e favorece a livre circulação sanguínea.",
             "receitas_legume": {
@@ -121,7 +121,7 @@
         },
         {
             "nome_legume": "Tomate",
-            "foto_legume": "assets/imgs/legumes/tomate.png",
+            "foto_legume": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/legumes/tomate.png",
             "descricao_legume": "É um fruto de cor vermelha ou amarela, com sabor levemente ácido, é de origem da America do Sul.",
             "beneficios_legume": "Protege o coração, Protege a pele, Previne o câncer, Ajuda na visão, ",
             "receitas_legume": {
@@ -132,7 +132,7 @@
         },
         {
             "nome_legume": "Ervilha",
-            "foto_legume": "assets/imgs/legumes/ervilha.png",
+            "foto_legume": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/legumes/ervilha.png",
             "descricao_legume": "São uma leguminosa herbácea de rápido crescimento que produz vagens deiscentes que contêm várias sementes globulares ou angulares, lisas ou rugosas, dependendo da variedade.",
             "beneficios_legume": "A ervilha é uma boa fonte de proteína vegetal, com um teor de até 8% do valor de referência para uma dieta de 2 mil calorias. É uma boa opção para quem não come carne.",
             "receitas_legume": {
@@ -143,13 +143,13 @@
         }
 
     ],
-    "logo_legumes": "/assets/imgs/bowl/legumes.png"
+    "logo_legumes": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/bowl/legumes.png"
     },
     "folhas":{
         "details": [
         {
             "nome_folhas": "Alface",
-            "foto_folhas": "assets/imgs/folhas/alface.png",
+            "foto_folhas": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/folhas/alface.png",
             "descricao_folhas": "É uma hortaliça anual ou bienal, originária do leste do Mediterrâneo. Possui baixo teor calórico, já que cada 100 g dela contém somente 15 calorias.",
             "beneficios_folhas": "O seu consumo auxilia no funcionamento da visão, no processo de cicatrização, no combate de infecções, além de fortalecer ossos e dentes. Também funciona como calmante, combate a insônia e tem efeito diurético e laxante",
             "receitas_folhas": {
@@ -160,7 +160,7 @@
         },
         {
             "nome_folhas": "Repolho",
-            "foto_folhas": "assets/imgs/folhas/repolho.png",
+            "foto_folhas": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/folhas/repolho.png",
             "descricao_folhas": "É uma hortaliça da família Brassicaceae, originária do Mediterrâneo. O repolho é rico em vitaminas, fibras, folato e antioxidantes",
             "beneficios_folhas": "Os diversos componentes antioxidantes encontrados no repolho são os principais responsáveis ​​pelo seu efeito anti-inflamatório. Além disso, esse vegetal melhora a digestão, graças às fibras solúveis. Elas também são responsáveis por reduzir os níveis de colesterol ruim.",
             "receitas_folhas": {
@@ -171,7 +171,7 @@
         },
         {
             "nome_folhas": "Couve-flor",
-            "foto_folhas": "assets/imgs/folhas/couve_flor.png",
+            "foto_folhas": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/folhas/couve_flor.png",
             "descricao_folhas": "É uma hortaliça de fácil digestão, cujo consumo é indicado para pessoas de todas as idades. O preparo básico consiste na remoção das folhas e das partes muito grossas e duras do caule, seguida pelo cozimento, na forma picada ou inteira.",
             "beneficios_folhas": "A couve-flor conta com diversos nutrientes dignos de um prato principal. Como ela é rica em antioxidantes (moléculas capazes de proteger as células contra radicais livres), seu consumo ajuda na redução de inflamações e melhora a imunidade.",
             "receitas_folhas": {
@@ -182,7 +182,7 @@
         },
         {
             "nome_folhas": "Brocolis",
-            "foto_folhas": "assets/imgs/folhas/brocolis.png",
+            "foto_folhas": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/folhas/brocolis.png",
             "descricao_folhas": "É uma variedade de Brassica oleracea e é uma planta herbácea, de caule longo e ereto, com folhas de nervuras pouco salientes e pedúnculos compridos.",
             "beneficios_folhas": "É uma ótima fonte das vitaminas A, C, E e K, além de ter ferro, potássio, cálcio e fósforo na sua composição. As funções cognitivas e cerebrais são beneficiadas pela vitamina K, ácido fólico e magnésio, logo, o raciocínio melhora, assim como a concentração.",
             "receitas_folhas": {
@@ -193,7 +193,7 @@
         },
         {
             "nome_folhas": "Couve",
-            "foto_folhas": "assets/imgs/folhas/couve.png",
+            "foto_folhas": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/folhas/couve.png",
             "descricao_folhas": "É uma hortaliça da família Brassicaceae: a mesma da mostarda e do nabo. É rica em fibras, iodo, cálcio, potássio, enxofre, magnésio e ômega 3; além de vitaminas A, B1, B2, B6, C e K.",
             "beneficios_folhas": "regula o intestino e melhora a saúde da flora intestinal, pois contém fibras, que ajudam na eliminação das fezes e também servem de alimento para as bactérias benéficas do intestino.",
             "receitas_folhas": {
@@ -204,7 +204,7 @@
         },
         {
             "nome_folhas": "Alho-poró",
-            "foto_folhas": "assets/imgs/folhas/alho_poro.png",
+            "foto_folhas": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/folhas/alho_poro.png",
             "descricao_folhas": "Da família das aliáceas, a mesma do alho, da cebola e da cebolinha, o legume tem sabor suave e adocicado, por isso, forma a base de tempero para tantas receitas.",
             "beneficios_folhas": "Ajuda a manter o bom funcionamento do aparelho digestivo. A hortaliça possui ainda inulina, um composto prebiótico, ou seja, serve de alimento para as bactérias boas no intestino, ajudando-as a se reproduzirem e contribuindo para a saúde da flora intestinal.",
             "receitas_folhas": {
@@ -215,13 +215,13 @@
         }
 
     ],
-    "logo_folhas": "/assets/imgs/bowl/folhas.png"
+    "logo_folhas": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/bowl/folhas.png"
     },
     "raizes":{
         "details":[
         {
             "nome_raizes": "Batata",
-            "foto_raizes": "assets/imgs/raizes/batata.png",
+            "foto_raizes": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/raizes/batata.png",
             "descricao_raizes": "É um tubérculo pertencente à família das Solanaceae. Surgiu nos Andes e nas Ilhas Chilenas, foi levada para a Europa no século XVI e tornou-se base da alimentação, além de ser um dos vegetais mais utilizados nas Américas do Norte e do Sul, principalmente por grandes redes de fast food.",
             "beneficios_raizes": "Tem ótimas quantidades de amido resistente, um tipo de carboidrato que não é absorvido pelo organismo e que atua como fibra, servindo de alimento para as bactérias benéficas do intestino, ajudando na prevenção de situações como infecção intestinal, diarreia ou prisão de ventre.",
             "receitas_raizes": {
@@ -232,7 +232,7 @@
         },
         {
             "nome_raizes": "Cenoura",
-            "foto_raizes": "assets/imgs/raizes/cenoura.png",
+            "foto_raizes": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/raizes/cenoura.png",
             "descricao_raizes": "É uma raiz rica em vitamina A, além de conter sais minerais como fósforo, cloro, potássio, cálcio, sódio; carboidratos, vitaminas do complexo B e betacaroteno, substância que lhe confere a cor laranja-avermelhada.",
             "beneficios_raizes": "As vitaminas C e A encontradas na cenoura são potentes antioxidantes que protegem as células dos danos provocados pelos radicais livres, diminuindo o risco de doenças cardiovasculares e alguns tipos de câncer.",
             "receitas_raizes": {
@@ -243,7 +243,7 @@
         },
         {
             "nome_raizes": "Batata-doce",
-            "foto_raizes": "assets/imgs/raizes/batata_doce.png",
+            "foto_raizes": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/raizes/batata_doce.png",
             "descricao_raizes": "É uma raiz tuberosa, planta da família das convolvuláceas. É encontrada em diversas variedades, nas cores externas amarela, branca e roxa. Pode ser classificada de acordo com o tamanho, formato, cor interna, dulçor, precocidade e cor das folhas.",
             "beneficios_raizes": "A batata-doce, principalmente a alaranjada, é uma ótima fonte de betacarotenos. Contém também vitamina C, um antioxidante que protege as células do corpo contra as informações e os radicais livres.",
             "receitas_raizes": {
@@ -254,7 +254,7 @@
         },
         {
             "nome_raizes": "Mandioca",
-            "foto_raizes": "assets/imgs/raizes/mandioca.png",
+            "foto_raizes": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/raizes/mandioca.png",
             "descricao_raizes": "É uma raiz, seu nome científico é Manihot esculenta Crantz. A parte leguminosa se desenvolve debaixo da terra, por isso ela é considerada um tubérculo. Seu caule e folhas podem atingir até cinco metros de altura.",
             "beneficios_raizes": "Mandioca ajuda na redução do colesterol, na prevenção da hipertensão, de doenças cardíacas, ajuda a evitar a anemia, contribui para a perda de peso, melhora a saúde do intestino, faz bem para a visão e fortalece o sistema imunológico.",
             "receitas_raizes": {
@@ -265,7 +265,7 @@
         },
         {
             "nome_raizes": "Beterraba",
-            "foto_raizes": "assets/imgs/raizes/beterraba.png",
+            "foto_raizes": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/raizes/beterraba.png",
             "descricao_raizes": "É uma hortaliça tuberosa, originária da Europa, da família Quenopodiácea, assim como a acelga e o espinafre verdadeiro. Apesar de comumente qualificada de raiz, ela é resultante do engrossamento de uma porção do caule.",
             "beneficios_raizes": "A beterraba ajuda a diminuir a pressão arterial por conter nitratos, componentes que são transformados em óxido nítrico no organismo, uma substância que ajuda a relaxar os vasos sanguíneos, melhorando a circulação de sangue.",
             "receitas_raizes": {
@@ -276,7 +276,7 @@
         },
         {
             "nome_raizes": "Inhame",
-            "foto_raizes": "assets/imgs/raizes/inhame.png",
+            "foto_raizes": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/raizes/inhame.png",
             "descricao_raizes": "É um tubérculo nutritivo e versátil, com origem na África e cultivado em várias partes do mundo por se tratar de um alimento energético e de alto valor nutritivo",
             "beneficios_raizes": "Possui proteínas capazes de estimular o sistema imunológico. É rico em vitaminas do complexo B, importante auxiliar na absorção do carboidrato. Auxilia na diminuição da incidência de câimbras por ser rico em minerais como potássio, magnésio e cálcio, que participam da contração e relaxamento do músculo.",
             "receitas_raizes": {
@@ -287,7 +287,7 @@
         }
 
     ],
-    "logo_raizes": "/assets/imgs/bowl/raizes.png"
+    "logo_raizes": "https://raw.githubusercontent.com/lumens7/hortifruti/refs/heads/main/assets/imgs/bowl/raizes.png"
     }
 
 }
