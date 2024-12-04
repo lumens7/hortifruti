@@ -7,7 +7,7 @@
         "nome_fruta": "Morango",
         "foto_fruta": "assets/imgs/frutas/morango.png",
         "descricao_fruta": "É uma fruta vermelha, rasteira, originária da Europa, e que pertence ao gênero Fragaria, da família Rosaceae. A fragaria é a espécie mais comum e cultivada em todo o mundo.",
-        "beneficios_fruta": "Ajuda a diminuir o colesterol, Controla a pressão arterial, Regula o açúcar no sangue, Mantém a saúde dos olhos.",
+        "beneficios_fruta": "Os morangos são ricos em antioxidantes, como antocianinas e ácido elágico, que ajudam a combater o envelhecimento da pele e a prevenir doenças cardiovasculares",
         "receitas_fruta": {
             "nome_receita": "Mousse de morango",
             "ingredientes" : "300 g de morangos congelados, 100 g de iogurte natural, 2 colheres de sopa de mel",
@@ -18,7 +18,7 @@
             "nome_fruta": "Maçã",
             "foto_fruta": "assets/imgs/frutas/maca.png",
             "descricao_fruta": "É um pseudofruto pomáceo da macieira, árvore da família Rosaceae. É um dos pseudofrutos de árvore mais cultivados, e o mais conhecido dos muitos membros do género Malus que são usados ​​pelos seres humanos. ",
-            "beneficios_fruta": "Saúde digestiva, Controle de peso, Prevenção de doenças crônicas, Saúde bucal.",
+            "beneficios_fruta": "O ácido málico presente na maçã aumenta a produção da saliva, diminuindo a proliferação de bactérias que formam a placa bacteriana",
             "receitas_fruta": {
                 "nome_receita": "Brownie de maçã",
                 "ingredientes" : "1 maçã, 1 ovo, 4 colher de sopa de cacal em pó 100%, 1/2 colher de fermento",
@@ -29,7 +29,7 @@
             "nome_fruta": "Banana",
             "foto_fruta": "assets/imgs/frutas/banana.png",
             "descricao_fruta": "possuem um formato alongado, uma coloração amarela ou vermelha e um sabor doce. Por ser um fruto partenocárpico, a banana não possui sementes, com exceção de uma espécie vendida no mercado indonésio, a Musa balbisiana.",
-            "beneficios_fruta": "Melhora o sono, Trazer energia para o corpo e reduzir cãibras, Fortalece os ossos, diminuindo as chances de osteoporose.",
+            "beneficios_fruta": "O triptofano, um aminoácido presente na banana, ajuda na produção de serotonina, o hormônio da felicidade, o que pode ajudar nas atividades cerebrais como raciocinar, memorizar e manter a concentração.",
             "receitas_fruta": {
                 "nome_receita": "Cookies de Banana",
                 "ingredientes" : "1 banana, 1 colher de sobremesa de mel, cerca de 5 colheres de sopa de aveia",
@@ -40,7 +40,7 @@
             "nome_fruta": "Melão",
             "foto_fruta": "assets/imgs/frutas/melao.png",
             "descricao_fruta": "É uma fruta de origem asiática e africana, produzida pela planta rasteira Cucumis melo.é uma fruta refrescante e saudável, muito consumida em estações quentes. Pode ser consumido ao natural, em sobremesas, saladas de frutas, sucos, ou em pratos salgados.",
-            "beneficios_fruta": "Fortalecimento dos ossos e dentes, Prevenção do envelhecimento precoce, Redução da retenção de líquidos.",
+            "beneficios_fruta": "O melão é rico em vitaminas A, C e potássio, que ajudam a reforçar o sistema imunológico, a saúde ocular e da pele, e a controlar a pressão arterial",
             "receitas_fruta": {
                 "nome_receita": "Mousse de melão com baunilha",
                 "ingredientes" : "1 melão, 1 lata de pêssego em calda, 1/2 lata de creme de leite",
@@ -51,7 +51,7 @@
             "nome_fruta": "Pera",
             "foto_fruta": "assets/imgs/frutas/pera.png",
             "descricao_fruta": " É o fruto da pereira, uma árvore da família Rosaceae, tem origem da Asia, e pode ter casca amarela, verde ou vermelha. A polpa pode ser macia, dura ou granulosa, e a consistência pode variar entre macia e cremosa ou dura e granulosa. ",
-            "beneficios_fruta": "Reduz o risco de doenças cardíacas, Estimula a circulação. Por conta do acido málico ela ajuda na digestão.",
+            "beneficios_fruta": "A pera contém cobre, um mineral necessário para a formação de colágeno, que é responsável pela estrutura e reparação dos tecidos, especialmente da pele e dos músculos. ",
             "receitas_fruta": {
                 "nome_receita": "Pera Assada",
                 "ingredientes" : "1 pera, 2 colheres (sopa) de mel, canela a gosto, suco de 1/2 limão siciliano",
@@ -62,7 +62,7 @@
             "nome_fruta": "Pitaya",
             "foto_fruta": "assets/imgs/frutas/pitaya.png",
             "descricao_fruta": "Também conhecida como fruta do dragão, é um fruto tropical e subtropical com uma aparência peculiar e um sabor doce e refrescante. Sua origem é da America Central. É um fruto da família dos catos, produzido por diferentes tipos de cactos dos gêneros Hylocereus e Selenicereus.",
-            "beneficios_fruta": "Ajuda a combater o envelhecimento, Previne a anemia, reduz o colesterol, o LDL e os triacilgliceróis, e eleva o HDL. ",
+            "beneficios_fruta": " Os antioxidantes presentes na pitaya podem ajudar a combater o envelhecimento e reduzir o risco de doenças crônicas degenerativas.",
             "receitas_fruta": {
                 "nome_receita": "Creme de Pitaya",
                 "ingredientes" : "1 pitaya, 1 banana congelada cortada em rodelas, 1 colher de sopa farinha de linhaça ou de aveia, 5 pedras de gelo",
