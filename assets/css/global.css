@@ -37,10 +37,27 @@ body, button, a {
 
 body{
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
+  overflow-y: scroll;
   position: relative;
   padding: 1rem;
   background-color: var(--frutas-background);
   transition: all .6s;
-   padding: 2.5rem;   
+  padding: 2.5rem;   
+  
+}
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE e Edge */
+}
+
+body {
+  overflow: auto; /* Mantém a rolagem */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE e Edge */
+}
+
+body::-webkit-scrollbar {
+  width: 0; /* Largura da barra de rolagem */
+  height: 0; /* Altura da barra de rolagem (horizontal) */
 }
