@@ -37,7 +37,7 @@ body, button, a {
 
 body{
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   overflow: hidden;
   position: relative;
   padding: 64px 120px 0;

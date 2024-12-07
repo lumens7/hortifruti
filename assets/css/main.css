@@ -45,6 +45,8 @@ main .roleta:hover .button_hort:hover{
     align-items: flex-start;
     max-width: 100%; 
     color: #fff;
+    /* overflow-x: hidden;
+        overflow-y: auto; */
   }
 
   main h1 {

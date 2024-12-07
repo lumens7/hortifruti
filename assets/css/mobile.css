@@ -1,8 +1,11 @@
 @media (max-width: 768px) {
+    *{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
     body {
         margin: 0;
         padding: 1rem;
-        overflow: scroll;
         max-height: 200vh;
         color: #fff;
     }

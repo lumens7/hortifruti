@@ -1,14 +1,14 @@
 #pratos {
     /* background-image: url('/assets/roleta.png'); */
     position: fixed;
-    bottom: -1105px;
-    right: -1110px;
+    bottom: -110vh;
+    right: -110vh;
   
     z-index: -1;
   }
   
 #pratos img {
-    width: 2200px;
+    width: 220vh;
     height: auto;
   
     transition: all 1.25s;
@@ -28,13 +28,13 @@
 }
 #circle{
     position: fixed;
-    bottom: -540px;
-    right: -540px;
+    bottom: -70vh;
+    right: -70vh;
 
     z-index: -2;
 
-    width: 1160px;
-    height: 1160px;
+    width: 145vh;
+    height: 145vh;
     border-radius: 100%;
     background-color: var(--frutas-circle);
     transition: all 1.2s;
@@ -43,27 +43,37 @@
 
 @media (max-width: 768px){
     #pratos{
-        bottom: -560px;
-        right: -560px;
+        position: absolute;
+        bottom: -50vh;
+        right: -50vh;
+        margin-top: 2rem;
+        /* z-index: 0; */
+        display: none;
+        
     }
     #pratos img{
-        width: 1100px;
+        width: 143vh;
+        /* height: 50%; */
     }
     #circle{
-        bottom: -760px;
-        right: -760px;
+        position: absolute; 
+        margin: 2rem auto;
+        bottom: -200vh;
+        right: -69vh;
+        z-index: -1;
+        display: none;
     }
 }
 @media (max-width: 450px){
     #pratos{
-        bottom: -450px;
-        right: -450px;
+        bottom: -59vh;
+        right: -59vh;
     }
     #pratos img{
-        width: 900px;
+        width: 117vh;
     }
     #circle{
-        bottom: -800px;
-        right: -800px;
+        bottom: -98vh;
+        right: -100vh;
     }
 }
