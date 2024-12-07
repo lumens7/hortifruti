@@ -5,8 +5,8 @@
     }
     body {
         margin: 0;
-        padding: 1rem;
-        max-height: 200vh;
+        padding: 0;
+        max-height: 300vh;
         color: #fff;
     }
     h1{

@@ -1,14 +1,14 @@
 #pratos {
     /* background-image: url('/assets/roleta.png'); */
     position: fixed;
-    bottom: -110vh;
-    right: -110vh;
+    bottom: -83vh;
+    right: -83vh;
   
     z-index: -1;
   }
   
 #pratos img {
-    width: 220vh;
+    width: 165vh;
     height: auto;
   
     transition: all 1.25s;
@@ -28,8 +28,8 @@
 }
 #circle{
     position: fixed;
-    bottom: -70vh;
-    right: -70vh;
+    bottom: -90vh;
+    right: -94vh;
 
     z-index: -2;
 
