@@ -70,6 +70,11 @@ main .roleta:hover .button_hort:hover{
   .roleta .button_hort img {
     width: 80px; 
   }
+  main .text{
+    background-color: rgba(3,3,3, 0.4);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+  }
 }
   
 @media (max-width: 450px){

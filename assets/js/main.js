@@ -30,7 +30,7 @@ function updateProfile(profileData) {
     }
 }
 
-fetch('profile.json')
+fetch('/json/profile.json')
     .then(response => response.json())
     .then(data => {
         updateProfile({

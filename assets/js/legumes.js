@@ -44,7 +44,7 @@ nextButton.addEventListener('click', () => {
     updateCarousel(currentIndex);
 });
 
-fetch('./profile.json')
+fetch('/json/profile.json')
     .then(response => response.json())
     .then(data => {
         legumeDetails = data.legumes.details;
