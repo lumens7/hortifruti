@@ -15,6 +15,7 @@ main{
     margin: 0;
     max-height: 400px;
     max-width: 1100px;
+    padding: 0 1rem;
 }
 main #centro{
     display: flex;
@@ -39,27 +40,21 @@ button:hover{
     color: #000;
     transform: scale(1.2);
 }
-#receitas{
-    max-height: 500px;
-    max-width: 900px;
-    display: grid;
-    /* flex-direction: row; */
-    grid-template-columns: repeat(2, auto);
-    gap: 0 10rem;
-    padding: 0;
-}
+
 #receitas_legumes{
     max-height: 500px;
     max-width: 900px;
     display: flex;
     flex-direction: column; 
     gap: 0 10rem;
+    padding: 0 1rem ;
 } 
 
 
 .preparar{
     max-height: 400px;
     max-width: 1000px;
+    padding: 0 1rem ;
 }
 h2{
     font-size: 2rem;
