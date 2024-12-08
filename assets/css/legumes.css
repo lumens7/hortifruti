@@ -69,21 +69,6 @@ p{
     height: 18em;
     filter: drop-shadow(20px 15px 8px rgba(0, 0, 0, 0.65));
 }
-.contatos{
-    background-color: var(--frutas-circle);
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: .3rem;
-    border: .5px solid #000000; 
-}
-.contato{
-    font-size: 1rem;
-}
 #pratos img{
     transform: rotate(-90deg);
 }
