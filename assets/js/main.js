@@ -4,16 +4,20 @@ const logo_frutas = document.getElementById('logo_frutas');
 const logo_legumes = document.getElementById('logo_legumes');
 const logo_folhas = document.getElementById('logo_folhas');
 const logo_raizes = document.getElementById('logo_raizes');
-const tel = document.getElementById('tel');
-const mail = document.getElementById('mail');
 const github = document.getElementById('github');
+const mail = document.getElementById('mail');
+const tel = document.getElementById('tel');
 
 function updateProfile(profileData) {
+    
     logo.src = profileData.logo;
-    logo.alt = profileData.name;
+    logo.alt = "LOGO";
 
-    roleta.src = profileData.roleta;
-    roleta.alt = profileData.name;
+    if(profileData.roleta){
+        roleta.src = profileData.roleta;
+        roleta.alt = "Roleta";
+
+    }
 
     if (profileData.logo_frutas) {
         logo_frutas.src = profileData.logo_frutas;
@@ -32,30 +36,50 @@ function updateProfile(profileData) {
         logo_raizes.alt = "Raízes";
     }
 
-    tel.innerText = profileData.tel;
-    tel.href = `tel:${tel}`;
+    
+    if(profileData.tel){
+        tel.textContent = profileData.tel;
+        tel.href = `tel:${profileData.tel}`;
+        tel.innerHTML = `telefone`;
 
-    mail.innerText = profileData.mail;
-    mail.href = `mailto:${mail}`;
+    }
+    if(profileData.mail){
+        mail.textContent = profileData.mail;
+        mail.href = `mailto:${profileData.mail}`;
+        mail.innerHTML = `mail`;
 
-    github.innerText = profileData.github;
-    github.href = `${github}`;
+    }
+    if(profileData.github){
+        github.textContent = profileData.github;
+        github.href = profileData.github;
+        github.innerHTML = `github`;
+
+    }
+
+    
 }
 
-fetch('/json/profile.json')
-    .then(response => response.json())
-    .then(data => {
+
+async function loadProfile() {
+    try {
+        const data = await fetchProfileData();
         updateProfile({
             logo: data.logo,
             roleta: data.roleta,
-            logo_frutas: data.frutas.logo_frutas,
-            logo_legumes: data.legumes.logo_legumes,
-            logo_folhas: data.folhas.logo_folhas,
-            logo_raizes: data.raizes.logo_raizes,
-            tel : data.tal,
-            mail : data.mail,
-            github : data.github,
+            logo_frutas: data.frutas?.logo_frutas,
+            logo_legumes: data.legumes?.logo_legumes,
+            logo_folhas: data.folhas?.logo_folhas,
+            logo_raizes: data.raizes?.logo_raizes,
+            tel: data.tel,
+            mail: data.mail,
+            github: data.github,
             name: "Lumens Profile"
         });
-    })
-    .catch(error => console.error('Erro ao carregar o JSON:', error));
+    } catch (error) {
+        console.error('Erro ao carregar o JSON:', error);
+    }
+}
+document.addEventListener('DOMContentLoaded', () => {
+    loadProfile();
+});
+

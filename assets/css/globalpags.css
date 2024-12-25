@@ -300,6 +300,22 @@ h2{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
+.contatos p{
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.125rem;
+}
+.contatos p::before{
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
 #cont-frutas{
     background-color: var(--frutas-circle);
 }
@@ -316,13 +332,26 @@ h2{
     text-decoration: none;
 }
 
-.contato a{
+/* .contato a{
     color: #000;
+    cursor: pointer;
 }
 .contato a:hover{
     text-decoration: underline;
     color: rgb(108, 108, 143);
+} */
+
+.contatos .contato #email::before{
+    background-image: url("/assets/imgs/icons/mail.svg");
 }
+
+
+.contato #git::before{
+    background-image: url("/assets/imgs/icons/github.svg");
+}
+
+
+
 input[type="checkbox"] {
     accent-color: #265143; 
     width: 15px; 
