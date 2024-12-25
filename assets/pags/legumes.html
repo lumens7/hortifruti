@@ -6,73 +6,91 @@
     <title>HORTIFRUTI LUMENS</title>
     <link rel="icon" type="image/x-icon" href="/assets/imgs/icon.ico">
 
+    <link rel="stylesheet" href="/assets/css/globalpags.css">
     <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/legumes.css">
-    <link rel="stylesheet" href="/assets/css/mobile.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
-<body>
-    <header>
+<body id="legumes">
+    <header id="menu-legumes">
         <img src="logo" alt="logo aplicação" id="logo">
         <nav class="navbar">
-          <a href="/main.html">Home</a>
-          <a href="frutas.html">Frutas</a>
-          <a href="legumes.html">Legumes</a>
-          <a href="folhas.html">Folhas</a>
-          <a href="raizes.html">Raizes</a>
+            <a href="/main.html">Home</a>
+            <a href="frutas.html">Frutas</a>
+            <a href="legumes.html">Legumes</a>
+            <a href="folhas.html">Folhas</a>
+            <a href="raizes.html">Raízes</a>
+            <div id="close-btn" class="fas fa-times"></div>
         </nav>
-  
+    
         <div id="menu-btn" class="fas fa-bars"></div>
-       
     </header>
-
-    <h1 class="nome" id="nome_legume">Sem nome...</h1>
-    <main>
+    
+    <div class="details" id="details-legumes">
+        <p>Os legumes são alimentos ricos em nutrientes importantes, como vitaminas, minerais e fibras alimentares, que promovem uma alimentação equilibrada. Eles auxiliam no fortalecimento do sistema imunológico, no controle do peso e na prevenção de doenças metabólicas.</p>
+    </div>
+    <div class="top" id="topo-legumes">
         <button id="prev" class="control prev">&lt;</button>
-        <div id="centro">
+        <ul class="lista" id="carouselList">
+           
+        </ul>
+        <button id="next" class="control next">&gt;</button>
+    </div>
+    
+    
+    <main id="centro-legumes">
+        <h1 class="nome" id="nome_legumes">sem nome...</h1>
+        <div class="centro">
             <div class="tipo">
-                <img src="foto_legume" alt="foto_legume" id="foto_legume">
+                <img src="foto_legumes" alt="foto_legumes" id="foto_legumes">
             </div>
             <div class="des">
                 <h2>Descricao </h1>
-                <p id="descricao_legume" class="descricao">
-                    
-                </p>
-    
+                <p id="descricao_legumes" class="descricao"></p>
             </div>
+        </div>
+           
+    </main>
+    <div class="ben" id="ben-legumes">
+        <h2>Beneficios</h2>
+        <p id="beneficios_legumes"></p>
 
+    </div>
+    <div class="receita" id="rec-legumes">
+        <h3 id="tes">Ideia de Receita</h3>
+        <p id="nome_receita" class="title-receitas"></p>
+        <div class="rec">
+            <div class="ing">
+                <h3>Ingredientes</h3>
+                <p id="ingredientes"></p>
+
+            </div>
+            <div class="prep">
+                <h3>Modo de Preparo</h3>
+                <p id="preparo"></p>
+
+            </div>
         </div>
         
-        <button id="next" class="control next">&gt;</button>
-
-    </main>
-    <div id="receitas_legumes">
-        <h2>Beneficios</h2>
-        <p id="beneficios_legume"></p>
-        <h3>Ideia de Receita</h3>
-        <p id="nome_receita"></p>
-        <h3>Ingredientes</h3>
-        <p></p>
-        <p id="ingredientes">Sem ingredientes...</p>
     </div>
-    <div class="preparar">
-        <h3>Modo de Preparo</h3>
-        <p id="preparo">Sem modo de preparo...</p>
+    <div class="contatos" id="cont-legumes">
+        <div class="contato">
+            <a id="github">indefinido...</a></div>
+        <div class="contato">
+            <a id="mail">indefinido...</a></div>
+        <div class="contato">
+            <a id="tel">indefinido...</a></div>
     </div>
-    
-    <div id="pratos" >
-        <img src="/assets/imgs/roleta.png" alt="" id="roleta">
-    </div>
-    <span id="circle"></span>
     
     <script src="/assets/js/index.js"></script>
     <script src="/assets/js/api.js"></script>
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/legumes.js"></script>
+    <!-- <script src="/assets/js/contatos.js"></script> -->
 
 
 </body>

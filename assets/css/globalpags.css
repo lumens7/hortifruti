@@ -1,0 +1,531 @@
+#frutas{
+    background-color: var(--frutas-background);
+}
+#legumes{
+    background-color: var(--legumes-background);
+    
+}
+#raizes{
+    background-color: var(--raizes-background);
+    
+}
+#folhas{
+    background-color: var(--folhas-background);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    max-height: 15vh;
+    margin: 1.5rem 5rem 0 5rem;
+}
+#menu-frutas{
+    border: solid 2.5px var(--frutas-background);
+    background-color: var(--frutas-circle);
+}
+#menu-legumes{
+    border: solid 2.5px var(--legumes-background);
+    background-color: var(--legumes-circle);
+}
+#menu-raizes{
+    border: solid 2.5px var(--raizes-background);
+    background-color: var(--raizes-circle);
+}
+#menu-folhas{
+    border: solid 2.5px var(--folhas-background);
+    background-color: var(--folhas-circle);
+}
+header img {
+    width: 150px;
+    height: auto;
+    padding: 0;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+header .navbar a {
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #000;
+    padding: .5rem 1rem;
+
+}
+header .navbar a:hover{
+    text-decoration: underline;
+    transition: all .75s;
+    border-radius: 20px;
+}
+header .navbar #close-btn{
+    display: none;
+    color: #fff;
+}
+
+#menu-btn{
+    display: none;  
+    
+}
+.details{
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    max-height: 120vh;
+    
+}
+.details p{
+    color: #fff;
+}
+#details-frutas{
+    background-color: var(--frutas-background);
+}
+#details-legumes{
+    background-color: var(--legumes-background);
+}
+#details-raizes{
+    background-color: var(--raizes-background);
+}
+#details-folhas{
+    background-color: var(--folhas-background);
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    
+}
+#topo-frutas{
+    background-color: var(--frutas-background);
+}
+#topo-legumes{
+    background-color: var(--legumes-background);
+}
+#topo-raizes{
+    background-color: var(--raizes-background);
+}
+#topo-folhas{
+    background-color: var(--folhas-background);
+}
+.lista {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    flex: 0 0 auto;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: filter 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.item.destaque {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+.control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+button {
+    color: #fff;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    border: none;
+}
+
+button:hover {
+    color: #000;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 100%;
+    
+}
+main h1{
+    color: #fff;
+}
+main .nome{
+    font-size: 3rem;
+}
+main .centro{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+#centro-frutas{
+    background-color: var(--frutas-background);
+}
+#centro-legumes{
+    background-color: var(--legumes-background);
+}
+#centro-raizes{
+    background-color: var(--raizes-background);
+}
+#centro-folhas{
+    background-color: var(--folhas-background);
+}
+.tipo{
+    padding: 1rem;
+}
+.tipo img{
+    width: 20em;
+    height: 20em;
+    filter: drop-shadow(20px 15px 8px rgba(0, 0, 0, 0.65));
+    margin: 0 10rem;
+}
+.des{
+    max-width: 900px;
+
+}
+.des h2{
+    font-size: 2rem;
+}
+.des p{
+    font-size: 1.5rem;
+}
+.ben{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    max-height: 100%;
+    padding-bottom: 5rem;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+.ben h2{
+    color: #000;
+    display: flex;
+    justify-content: start;
+    margin: 5rem 8rem 2rem;
+}
+.ben p{
+    color: #000;
+    margin: 0 10rem;
+    font-size: 1.25rem;
+}
+#ben-frutas{
+    background-color: var(--frutas-circle);
+}
+#ben-legumes{
+    background-color: var(--legumes-circle);
+}
+#ben-raizes{
+    background-color: var(--raizes-circle);
+}   
+#ben-folhas{
+    background-color: var(--folhas-circle);
+}   
+.receita{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    max-height: 100%;
+    padding-bottom: 5rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 1rem 8rem .5rem;
+}
+.receita h3{
+    font-size: 1.75rem;
+    margin: 1rem 8rem 0;
+}
+.receita p{
+    font-size: 1.25rem;
+    margin: 1rem 10rem 0;
+}
+.receita .rec{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#rec-frutas{
+    background-color: var(--frutas-background);
+}
+#rec-legumes{
+    background-color: var(--legumes-background);
+}
+#rec-raizes{
+    background-color: var(--raizes-background);
+}
+#rec-folhas{
+    background-color: var(--folhas-background);
+}
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .5rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#cont-frutas{
+    background-color: var(--frutas-circle);
+}
+#cont-legumes{
+    background-color: var(--legumes-circle);
+}
+#cont-raizes{
+    background-color: var(--raizes-circle);
+}
+#cont-folhas{
+    background-color: var(--folhas-circle);
+}
+.contatos a{
+    text-decoration: none;
+}
+
+.contato a{
+    color: #000;
+}
+.contato a:hover{
+    text-decoration: underline;
+    color: rgb(108, 108, 143);
+}
+input[type="checkbox"] {
+    accent-color: #265143; 
+    width: 15px; 
+    height: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        max-height: 100%;
+    }
+    header{
+        overflow: hidden;
+    }
+    header .navbar {
+        display: none;
+        max-height: 100%;
+    }
+
+    header .logo img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    #menu-btn {
+        display: block;
+        font-size: 30px;
+        color: #000;
+        cursor: pointer;
+        max-width: 100px;
+        max-height: 100px;
+    }
+   
+    #close-btn {
+        display: none; 
+        font-size: 30px;
+        color: #fff;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    header .navbar a{
+        color: #fff;
+    }
+
+    .navbar.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+
+    .navbar a {
+        font-size: 22px;
+        text-decoration: none;
+        color: #fff;
+        padding: 1rem;
+        border: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar a:hover {
+        transition: all .75s;
+    }
+
+    .navbar.active #close-btn {
+        display: block;
+    }
+    .details p{
+        font-size: 1.5rem;
+        padding: 0 1rem ;
+    }
+    .top{
+        padding: 0 .5rem ;
+        max-height: 100%;
+        overflow-y: hidden;
+    }
+    .top .lista .item{
+        overflow-y: hidden;
+    }
+    .top .lista .item img{
+        max-width: 75px;
+        max-height: 75px;
+        margin: 2rem .25rem;
+        gap: 0;
+        overflow-y: hidden;
+    }
+    .top #carouselList{
+        overflow: hidden;
+    }
+    main{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       justify-content: center;
+    }
+    main .centro{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       max-height: 100%;
+       max-width: 100%;
+    }
+    main .centro .tipo img{
+        max-width: 180px;
+        max-height: 200px;
+    }
+    main h1{
+        font-size: 1.5rem;
+    }
+    main .centro .des{
+        padding: 0 2rem;
+    }
+    main .centro p{
+        color: #fff;
+    }
+    .ben{
+        height: 100%;
+        width: 100%;
+    }
+    .ben h2{
+        font-size: 1.5rem;
+    }
+    .receita{
+        padding-bottom: 1.5rem;
+    }
+    .receita h3{
+        font-size: 1.5rem;
+    }
+    .receita p{
+        color: #fff;
+        font-size: 1rem;
+    }
+    .receita .rec{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 450px) {
+    header{
+        margin: 1rem;
+
+    }
+    .top #carouselList{
+        display: grid;
+        grid-template-columns:auto auto auto;
+    }
+    main .centro .tipo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main .centro .tipo img{
+        margin: 0;
+        padding: 0;
+        max-height: 150px;
+        max-height: 150px;
+    }
+    main .centro .des h2{
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
+    main .centro .des p{
+        margin: 0 1rem;
+    }
+    .ben{
+        margin: 0;
+        padding: 0;
+    }
+    .ben h2{
+        padding-top: 3rem;
+        margin: 1rem ;
+        font-size: 2rem;
+    }
+    .ben p{
+        margin: 0;
+        padding: 3rem;
+        padding-bottom: 4rem;
+    }
+    .receita{
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 3rem;
+        align-items: start;
+    }
+    .receita h3{
+        margin: 0 1rem;
+        padding: 1rem 0 0;
+        font-size: 2rem;
+    }
+    .receita p{
+        margin: 0 1.5rem;
+        padding: 1rem 0 0;
+        font-size: 1.2rem;
+    } 
+
+}

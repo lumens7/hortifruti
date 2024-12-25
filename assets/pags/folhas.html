@@ -6,69 +6,83 @@
     <title>HORTIFRUTI LUMENS</title>
     <link rel="icon" type="image/x-icon" href="/assets/imgs/icon.ico">
 
+    <link rel="stylesheet" href="/assets/css/globalpags.css">
     <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/folhas.css">
-    <link rel="stylesheet" href="/assets/css/mobile.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
-<body>
-    <header>
+<body id="folhas">
+    <header id="menu-folhas">
         <img src="logo" alt="logo aplicação" id="logo">
         <nav class="navbar">
-          <a href="/main.html">Home</a>
-          <a href="frutas.html">Frutas</a>
-          <a href="legumes.html">Legumes</a>
-          <a href="folhas.html">Folhas</a>
-          <a href="raizes.html">Raizes</a>
+            <a href="/main.html">Home</a>
+            <a href="frutas.html">Frutas</a>
+            <a href="legumes.html">Legumes</a>
+            <a href="folhas.html">Folhas</a>
+            <a href="raizes.html">Raízes</a>
+            <div id="close-btn" class="fas fa-times"></div>
         </nav>
-  
+    
         <div id="menu-btn" class="fas fa-bars"></div>
-       
     </header>
-
-    <h1 class="nome" id="nome_folhas">Sem nome...</h1>
-    <main>
+    
+    <div class="details" id="details-folhas">
+        <p>As folhas são fontes de vitaminas, minerais e antioxidantes essenciais para o organismo, além de possuírem baixo teor calórico. Elas contribuem para a saúde cardiovascular, ajudam na desintoxicação do corpo e fortalecem a imunidade.</p>
+    </div>
+    <div class="top" id="topo-folhas">
         <button id="prev" class="control prev">&lt;</button>
-        <div id="centro">
+        <ul class="lista" id="carouselList">
+           
+        </ul>
+        <button id="next" class="control next">&gt;</button>
+    </div>
+    
+    
+    <main id="centro-folhas">
+        <h1 class="nome" id="nome_folhas">sem nome...</h1>
+        <div class="centro">
             <div class="tipo">
                 <img src="foto_folhas" alt="foto_folhas" id="foto_folhas">
             </div>
             <div class="des">
                 <h2>Descricao </h1>
-                <p id="descricao_folhas" class="descricao">
-                    
-                </p>
-    
+                <p id="descricao_folhas" class="descricao"></p>
             </div>
-
         </div>
-        
-        <button id="next" class="control next">&gt;</button>
-
+           
     </main>
-    <div id="receitas_folhas">
+    <div class="ben" id="ben-folhas">
         <h2>Beneficios</h2>
         <p id="beneficios_folhas"></p>
-        <h3>Ideia de Receita</h3>
-        <p id="nome_receita"></p>
-        <h3>Ingredientes</h3>
-        <p></p>
-        <p id="ingredientes"></p>
+
     </div>
-    <div class="preparar">
-        <h3>Modo de Preparo</h3>
-        <p id="preparo"></p>
+    <div class="receita" id="rec-folhas">
+        <h3>Ideia de Receita</h3>
+        <p id="nome_receita" class="title-receitas"></p>
+        <div class="rec">
+            <div class="ing">
+                <h3>Ingredientes</h3>
+                <p id="ingredientes"></p>
+            </div>
+            <div class="prep">
+                <h3>Modo de Preparo</h3>
+                <p id="preparo"></p>
+            </div>
+        </div>
         
     </div>
-    
-    <div id="pratos" >
-        <img src="/assets/imgs/roleta.png" alt="" id="roleta">
+    <div class="contatos" id="cont-folhas">
+        <div class="contato">
+            <a href="https://github.com/lumens7">github</a></div>
+        <div class="contato">
+            <a href="mailto:luisfelixnogueira@gmail.com">mail</a></div>
+        <div class="contato">
+            <a href="tel:+55 34 9 9773-3335">telefone</a></div>
     </div>
-    <span id="circle"></span>
     
     <script src="/assets/js/index.js"></script>
     <script src="/assets/js/api.js"></script>

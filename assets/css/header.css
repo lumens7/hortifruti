@@ -1,14 +1,16 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-
-  margin-bottom: 0px;
+  justify-content: space-around;
+  position: sticky;
+  top:0; left: 0; right:0;
+  z-index: 1;
 }
   
 header img {
   width: 150px;
   height: auto;
+  padding: 0;
 }
   
 header .navbar {
@@ -23,70 +25,82 @@ header .navbar a {
   font-weight: 300;
   letter-spacing: 1px;
   color: #fff;
+  padding: .5rem 1rem;
 
 }
 header .navbar a:hover{
-  text-decoration: underline ;
-  transition: all 1.5s;
+  transition: all .75s;
+  text-decoration: underline;
+  border-radius: 20px;
+}
+
+header .navbar #close-btn{
+  display: none;
+  color: #fff;
 }
 
 #menu-btn{
-  display: none;
+  display: none;  
+  
 }
-
-@media (max-width: 768px) {
-  header {
-    flex-direction: column; 
-    align-items: center;
-    
+@media screen and (max-width: 768px) {
+  header{
+    position: relative;
+  }
+  header .navbar {
+      display: none;
   }
 
-  header img {
-    margin-bottom: 20px; 
-  }
 
   #menu-btn {
-    display: inline-block;
-    cursor: pointer;
-    font-size: 24px;
-    margin-bottom: 16px; 
+      display: block;
+      font-size: 30px;
+      color: #000;
+      cursor: pointer;
   }
-
-  .navbar:not(:active) {
-    flex-direction: column; 
-    column-gap: 0; 
-    justify-content: end;
-    display: none; 
+ 
+  #close-btn {
+      display: none; 
+      font-size: 30px;
+      color: #fff;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+  }
+  header .navbar a{
+      color: #fff;
   }
 
   .navbar.active {
-    display: flex; 
-    flex-direction: row;
-    gap: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
   }
-  
 
   .navbar a {
-    font-size: 5rem; 
-    padding: .5rem;
-    color: #000;
-    position: relative;
-    overflow: hidden;
+      font-size: 22px;
+      text-decoration: none;
+      color: #fff;
+      padding: 1rem;
+      border: none;
+      text-align: center;
+      width: 100%;
   }
-  .navbar a:active{
-    padding: 0;
+
+  .navbar a:hover {
+      transition: all .75s;
   }
-    
+
+  .navbar.active #close-btn {
+      display: block;
+  }
 }
-@media (max-width: 450px){
-  .navbar:not(:active) {
-    flex-direction: row; 
-    column-gap: 0; 
-    display: none; 
-  }
-  .navbar.active {
-    display: grid; 
-    grid-template-columns: auto auto;
-  }
-} 
-  

@@ -4,6 +4,9 @@ const logo_frutas = document.getElementById('logo_frutas');
 const logo_legumes = document.getElementById('logo_legumes');
 const logo_folhas = document.getElementById('logo_folhas');
 const logo_raizes = document.getElementById('logo_raizes');
+const tel = document.getElementById('tel');
+const mail = document.getElementById('mail');
+const github = document.getElementById('github');
 
 function updateProfile(profileData) {
     logo.src = profileData.logo;
@@ -28,6 +31,15 @@ function updateProfile(profileData) {
         logo_raizes.src = profileData.logo_raizes;
         logo_raizes.alt = "Raízes";
     }
+
+    tel.innerText = profileData.tel;
+    tel.href = `tel:${tel}`;
+
+    mail.innerText = profileData.mail;
+    mail.href = `mailto:${mail}`;
+
+    github.innerText = profileData.github;
+    github.href = `${github}`;
 }
 
 fetch('/json/profile.json')
@@ -40,6 +52,9 @@ fetch('/json/profile.json')
             logo_legumes: data.legumes.logo_legumes,
             logo_folhas: data.folhas.logo_folhas,
             logo_raizes: data.raizes.logo_raizes,
+            tel : data.tal,
+            mail : data.mail,
+            github : data.github,
             name: "Lumens Profile"
         });
     })

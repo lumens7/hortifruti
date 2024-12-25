@@ -1,7 +1,5 @@
-@import url('header.css');
-@import url('main.css');
 @import url('prato.css');
-@import url('mobile.css');
+/* @import url('mobile.css'); */
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
 
 * {
@@ -16,7 +14,7 @@
   --text: #000;
 
 
-  --frutas-circle: #ccbcf8;
+  --frutas-circle: #c9bee7;
   --frutas-background: #613dc1;
 
   --folhas-circle: #ECFFCC;
@@ -37,27 +35,16 @@ body, button, a {
 
 body{
   width: 100%;
-  overflow: auto;
+  overflow: scroll;
   overflow-y: scroll;
   position: relative;
-  padding: 1rem;
   background-color: var(--frutas-background);
   transition: all .6s;
-  padding: 2.5rem;   
   
 }
-body {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE e Edge */
-}
 
-body {
-  overflow: auto; /* Mantém a rolagem */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE e Edge */
-}
-
-body::-webkit-scrollbar {
-  width: 0; /* Largura da barra de rolagem */
-  height: 0; /* Altura da barra de rolagem (horizontal) */
+@media screen and (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
 }

@@ -3,7 +3,7 @@ main{
   flex-direction: column;
   align-items: flex-start;
   row-gap: 16px;
-
+  margin: 0 5rem;
   width: 100%;
   max-width: 700px;
 }
@@ -42,10 +42,19 @@ main .roleta:hover .button_hort:hover{
   transform: translateY(-20px);
 }
 @media (max-width: 768px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 768px;
+  }
   main {
     align-items: flex-start;
     max-width: 100%; 
     color: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 3rem ;
   }
 
   main h1 {
@@ -66,19 +75,36 @@ main .roleta:hover .button_hort:hover{
   main .roleta {
     flex-wrap: wrap; 
     justify-content: center;
+    padding: 0;
+    margin: 0;
   }
 
   .roleta .button_hort img {
-    width: 80px; 
+    max-width: 60px; 
   }
   main .text{
     background-color: rgba(3,3,3, 0.4);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+  }
+  main .text h1{
+    font-size: 1.5rem;
+  }
+  main .text p{
+    font-size: .75rem;
   }
 }
   
 @media (max-width: 450px){
+  main .text{
+    max-width: 300px;
+  }
   main h1{
     font-size: 1.5rem;
   }

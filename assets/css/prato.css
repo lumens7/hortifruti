@@ -43,37 +43,30 @@
 
 @media (max-width: 768px){
     #pratos{
-        position: absolute;
-        bottom: -50vh;
-        right: -50vh;
-        margin-top: 2rem;
-        /* z-index: 0; */
-        display: none;
-        
+        /* display: none; */
+        bottom: -45vh;
+        right: -46vh;
     }
     #pratos img{
-        width: 143vh;
+        width: 90vh;
         /* height: 50%; */
     }
     #circle{
-        position: absolute; 
-        margin: 2rem auto;
-        bottom: -200vh;
-        right: -69vh;
-        z-index: -1;
-        display: none;
+        /* display: none; */
+        bottom: -100vh;
+        right: -115vh;
     }
 }
 @media (max-width: 450px){
     #pratos{
-        bottom: -59vh;
-        right: -59vh;
+        bottom: -33vh;
+        right: -33vh;
     }
     #pratos img{
-        width: 117vh;
+        width: 65vh;
     }
     #circle{
-        bottom: -98vh;
-        right: -100vh;
+        bottom: -110vh;
+        right: -115vh;
     }
 }

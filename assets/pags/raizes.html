@@ -6,69 +6,85 @@
     <title>HORTIFRUTI LUMENS</title>
     <link rel="icon" type="image/x-icon" href="/assets/imgs/icon.ico">
 
+    <link rel="stylesheet" href="/assets/css/globalpags.css">
     <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/raizes.css">
-    <link rel="stylesheet" href="/assets/css/mobile.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
-<body>
-    <header>
+<body id="raizes">
+    <header id="menu-raizes">
         <img src="logo" alt="logo aplicação" id="logo">
         <nav class="navbar">
-          <a href="/main.html">Home</a>
-          <a href="frutas.html">Frutas</a>
-          <a href="legumes.html">Legumes</a>
-          <a href="folhas.html">Folhas</a>
-          <a href="raizes.html">Raizes</a>
+            <a href="/main.html">Home</a>
+            <a href="frutas.html">Frutas</a>
+            <a href="legumes.html">Legumes</a>
+            <a href="folhas.html">Folhas</a>
+            <a href="raizes.html">Raízes</a>
+            <div id="close-btn" class="fas fa-times"></div>
         </nav>
-  
+    
         <div id="menu-btn" class="fas fa-bars"></div>
-       
     </header>
-
-    <h1 class="nome" id="nome_raizes">Sem nome...</h1>
-    <main>
+    
+    <div class="details" id="details-raizes">
+        <p>As raízes são alimentos energéticos e nutritivos, ricos em carboidratos, fibras, vitaminas e minerais. Elas fornecem energia, auxiliam na regulação do trânsito intestinal e contribuem para a saúde óssea e muscular.</p>
+    </div>
+    <div class="top" id="topo-raizes">
         <button id="prev" class="control prev">&lt;</button>
-        <div id="centro">
+        <ul class="lista" id="carouselList">
+           
+        </ul>
+        <button id="next" class="control next">&gt;</button>
+    </div>
+    
+    
+    <main id="centro-raizes">
+        <h1 class="nome" id="nome_raizes">sem nome...</h1>
+        <div class="centro">
             <div class="tipo">
                 <img src="foto_raizes" alt="foto_raizes" id="foto_raizes">
             </div>
             <div class="des">
                 <h2>Descricao </h1>
-                <p id="descricao_raizes" class="descricao">
-                    
-                </p>
-    
+                <p id="descricao_raizes" class="descricao"></p>
             </div>
-
         </div>
-        
-        <button id="next" class="control next">&gt;</button>
-
+           
     </main>
-    <div id="receitas_raizes">
+    <div class="ben" id="ben-raizes">
         <h2>Beneficios</h2>
         <p id="beneficios_raizes"></p>
-        <h3>Ideia de Receita</h3>
-        <p id="nome_receita"></p>
-        <h3>Ingredientes</h3>
-        <p></p>
-        <p id="ingredientes"></p>
+
     </div>
-    <div class="preparar">
-        <h3>Modo de Preparo</h3>
-        <p id="preparo"></p>
+    <div class="receita" id="rec-raizes">
+        <h3>Ideia de Receita</h3>
+        <p id="nome_receita" class="title-receitas"></p>
+        <div class="rec">
+            <div class="ing">
+                <h3>Ingredientes</h3>
+                <p id="ingredientes"></p>
+
+            </div>
+            <div class="prep">
+                <h3>Modo de Preparo</h3>
+                <p id="preparo"></p>
+
+            </div>
+        </div>
         
     </div>
-    
-    <div id="pratos" >
-        <img src="/assets/imgs/roleta.png" alt="" id="roleta">
+    <div class="contatos" id="cont-raizes">
+        <div class="contato">
+            <a href="https://github.com/lumens7">github</a></div>
+        <div class="contato">
+            <a href="mailto:luisfelixnogueira@gmail.com">mail</a></div>
+        <div class="contato">
+            <a href="tel:+55 34 9 9773-3335">telefone</a></div>
     </div>
-    <span id="circle"></span>
     
     <script src="/assets/js/index.js"></script>
     <script src="/assets/js/api.js"></script>
